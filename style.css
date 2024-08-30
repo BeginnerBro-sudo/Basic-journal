@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkgray;
+}
+
+#user-input{
+    width: 80vw;
+    height: 100vh;
+    position: absolute;
+    left: 20vw;
+}
+
+nav{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 19vw;
+    
+}
+
+#add-entry{
+    padding: 0;
+    width: 15vw;
+    margin: 0 auto;
+}
+
+#save-area{
+    padding: 0;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+#save-area > li{
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+#save-area li{
+  width: 20vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
